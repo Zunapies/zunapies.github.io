@@ -1,0 +1,16 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('../src/img/backgoundImage.png');
+  background-size: 2900px 1200px;
+  background-repeat: repeat;
+  background-position: center;
+  color: #3a3a2f;
+}

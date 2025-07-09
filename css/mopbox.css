@@ -1,0 +1,36 @@
+.mop-box {
+  max-width: 350px;
+  background: #e2e7d5;
+  padding: 25px 30px;
+  border-radius: 14px;
+  margin-right: 15px;
+  box-shadow: inset 0 0 8px #d0d8b8;
+  z-index: 5;
+  position: relative;
+}
+
+.mop-box h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #4a4a3c;
+  font-size: 22px;
+  text-align: center;
+}
+
+.mop-box h2 br + span {
+  font-size: 19px;
+  display: block;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.mop-box ul {
+  list-style: none;
+  color: #5a5a44;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.mop-box ul li {
+  margin-bottom: 14px;
+}

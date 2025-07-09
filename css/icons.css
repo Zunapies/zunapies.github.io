@@ -1,0 +1,39 @@
+/* SOCIAL ICONS */
+.social-icons {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  background: transparent;
+}
+
+.icon-circle:hover {
+  transform: scale(1.05);
+  background: #adb2a5;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.icon-img {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.2s ease;
+}
+
+.icon-circle:hover .icon-img {
+  transform: scale(1.1);
+}
